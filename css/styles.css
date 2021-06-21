@@ -1,10 +1,95 @@
 :root {
-    --clr-primary: hsl(177, 91, 34);
+    --clr-primary: #08a49c;
+    --clr-secondary: #343a40;
     --clr-bg: 	hsl(210, 10%, 23%)
   }
+body{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    text-align: center;
+    background-color: var(--clr-bg);
+}
+/* Header done using Bootstrap */
 
+/* Footer done using Bootstrap */
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/* classes */
+.container{
+    margin:0 auto;
+}
 .logo{
       color: var(--clr-primary);
       max-width: 5rem;
       max-height: 5rem;
   }
+.home-intro{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80);
+    padding: 10em 2rem;
+    font-size: 2rem;
+}
+.home-intro span{
+    display: block;
+    font-size: 1.7rem;
+}
+.button{
+    display: inline-block;
+    font-size: 1.15rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: 0.5rem 1.5rem;
+
+}
+.button-primary{
+    color: var(--clr-primary);
+    border-color: var(--clr-primary);
+}
+.button-primary:hover, .button-primary:focus{
+    background: var(--clr-primary);
+    color: var(--clr-secondary);
+}
+/* home-about */
+.home-about{
+    margin-top: 2rem;
+}
+.home-about-textbox{
+    padding: 3em;
+    padding-top: 4em;
+    outline:2px solid var(--clr-primary);
+    outline-offset: -1.5em;
+    position: relative;
+}
+.home-about-textbox h1{
+    position: absolute;
+    top: 0.2em;
+    left:30%;
+    right:30%;
+}
+/* home-projects */
+.home-projects{
+    padding: 3rem;
+    padding-top: 7em;
+    margin: 2rem;
+    outline:2px solid var(--clr-primary);
+    outline-offset: -1.5em;
+    position: relative;
+}
+.home-projects h1{
+    position: absolute;
+    top: 0.2em;
+    left:20%;
+    right:20%;
+}
+.home-projects figure{
+    outline:1px solid var(--clr-primary);
+}
+.home-projects figcaption{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    outline:1px solid var(--clr-primary);
+}
