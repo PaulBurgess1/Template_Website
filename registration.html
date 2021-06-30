@@ -2,7 +2,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Generic Inc. </title>
+    <title> Registration </title>
     <link rel="icon" href="img/Logo.png">
     <!--JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -12,102 +12,59 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
     <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
-      
-  <body>
-    <!--Header-->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">
-          <img src="img/Logo.png" alt="Generic Inc. logo" class="logo">          Generic Inc.
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only"></span></a>
-            <a class="nav-item nav-link" href="#">About Us</a>
-            <a class="nav-item nav-link" href="#">Contract</a>
-            <a class="nav-item nav-link disabled" href="#">Pricing</a>
-          </div>
-        </div>
-      </nav>
-    </header>
-    
-    <!--Main-->
-    <main role="main" class="container">
-    <!--home-intro-->
-    <section class="home-intro">
-      <h1 class="intro">Generic Inc. is the company for you
-        <span>and your business needs.</span> 
-      </h1>
-      <a href="#" class="button button-small button-primary">See Our Work</a>
-    </section>
-    <!--home-about-->
-    <section class="home-about bg-dark">
-      <div class="home-about-textbox">
-        <h1 class="bg-dark">Who Are We?</h1>
-        <p>We are Generic Inc. A company that does anything and everything!</p>
-        <p>We are involved in every industry that there is from restaurants to construction.</p>
-      </div>
-    </section>
-    <!--home-projects-->
-    <section class="home-projects bg-dark">
-      <h1 class="py-1 bg-dark">See Some Of Our Projects</h1>
-      <!--Projects-->
 
-          <!--Project 1-->
-          <div class="col">
-            <figure class="project-item">
-              <img src="https://source.unsplash.com/random/1080x1620" alt="Project">
-              <figcaption class="project-desc">
-                <h3>Project Title</h3>
-                <p>Project Desciption</p>
-                <a href="" class="button button-small button-primary">See This Project</a>
-              </figcaption>
-            </figure>
-          </div>
-          <!--Project 2-->
-          <div class="col">
-            <figure class="project-item">
-              <img src="https://source.unsplash.com/featured/1080x1620" alt="Project">
-              <figcaption class="project-desc">
-                <h3>Project Title</h3>
-                <p>Project Desciption</p>
-                <a href="" class="button button-small button-primary">See This Project</a>
-              </figcaption>
-            </figure>
-          </div>
-          <!--Project 3-->
-          <div class="col">
-            <figure class="project-item">
-              <img src="https://source.unsplash.com/collection/190727/1080x1620" alt="Project">
-              <figcaption class="project-desc">
-                <h3>Project Title</h3>
-                <p>Project Desciption</p>
-                <a href="" class="button button-small button-primary">See This Project</a>
-              </figcaption>
-            </figure>
-          </div>
-          <!--Project 4-->
-          <div class="col">
-            <figure class="project-item">
-              <img src="https://source.unsplash.com/weekly?water/1080x1620" alt="Project">
-              <figcaption class="project-desc">
-                <h3>Project Title</h3>
-                <p>Project Desciption</p>
-                <a href="" class="button button-small button-primary">See This Project</a>
-              </figcaption>
-            </figure>
-          </div>
-        </section>
-      <!--CTA-->
-      <section class="cta mt-3">
-        <div class="cta-textbox">
-          <h1 class="">Like What You See?</h1>
-          <a href="" class="button button-small button-secondary">Hire Me</a>
+  <body>
+
+   <!--Header-->
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="img/Logo.png" alt="Generic Inc. logo" class="logo">          Generic Inc.
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only"></span></a>
+          <a class="nav-item nav-link" href="#">About Us</a>
+          <a class="nav-item nav-link" href="#">Contract</a>
+          <a class="nav-item nav-link disabled" href="#">Pricing</a>
         </div>
-      </section>
+      </div>
+    </nav>
+  </header>
+
+  <!--Main-->
+  <main role="main" class="container">
+        <form class="border mt-3 bg-dark py-5 w-auto h-auto text-center" action="#"  method="post">
+            <h1 class="text-center">Sign Up!</h1>
+            <br>
+            <label for="email"><b>Email</b></label>
+            <br>
+            <input type="email" placeholder="Enter Email: " name="email" required>
+            <br>
+            <label for="username"><b>User Name</b></label>
+            <br>
+            <input type="text" placeholder="Enter User Name: " name="username" required>
+            <br>
+            <label for="fname"><b>First Name</b></label>
+            <br>
+            <input type="text" placeholder="Enter First Name: " name="fname" required>
+            <br>
+            <label for="lname"><b>Last Name</b></label>
+            <br>
+            <input type="text" placeholder="Enter Last Name: " name="lname" required>
+            <br>
+            <label for="pword"><b>Password</b></label>
+            <br>
+            <input type="password" placeholder="Enter Password: " name="pword" required>
+            <br>
+            <br>
+            <button class="btn btn-warning btn-lg" type="submit">Sign Up</button>
+        </form>
+
+
   </main>
 
   <!--Footer-->
@@ -142,7 +99,6 @@
         <div class="col-md-3 mb-md-0 mb-3">
           <!-- Social Media -->
           <h5 class="text-uppercase">Follow Us</h5>
-
           <ul class="list-unstyled">
             <li>
               <a
@@ -196,13 +152,15 @@
         </div>
       </div>
     </div>
-
     <!-- Copyright -->
     <div class="footer-copyright text-center py-2 " style="background-color: rgba(0, 0, 0, 0.2);">
       © 2021 Copyright:<a href="#"> GenericInc.com</a>
       <p>All rights reserved.</p>
     </div>
   </div>
+
   </footer>
-  </body>
+</body>
+
+
 </html>
