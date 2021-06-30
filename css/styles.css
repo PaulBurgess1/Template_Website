@@ -3,6 +3,20 @@
     --clr-secondary: #292b2c;
     --clr-bg: 	hsl(210, 10%, 23%);
     --clr-text: azure;
+
+    --clr-secondary-light: grey;
+    --clr-bg-light: #FBFBFB;
+    --clr-text-light: black;
+
+    --clr-secondary-dark: #292b2c;
+    --clr-bg-dark: 	hsl(210, 10%, 23%);
+    --clr-text-dark: azure;
+    
+}
+.light-mode{
+    --clr-secondary: #B0BEC5;
+    --clr-bg: 	#FBFBFB;
+    --clr-text: black;
 }
 *{
     transition: all ease-in-out 250ms;/*Makes everything look smoother*/
@@ -49,6 +63,7 @@ section::after{/*Fixes floating elements*/
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    color:var(--clr-text-dark);
     padding: 10em 2rem;
     font-size: 2rem;
     margin-top: 2rem;
@@ -116,6 +131,7 @@ section::after{/*Fixes floating elements*/
 .home-projects{
     outline:1px solid var(--clr-primary);
     margin-top:2rem 0;
+    color:var(--clr-text-dark);
     
 }
 .project-item{
