@@ -1,6 +1,6 @@
 :root {
     --clr-primary: #08a49c;
-    --clr-secondary: #292b2c;
+    --clr-secondary: #212529;
     --clr-bg: 	hsl(210, 10%, 23%);
     --clr-text: azure;
 
@@ -8,14 +8,14 @@
     --clr-bg-light: #FBFBFB;
     --clr-text-light: black;
 
-    --clr-secondary-dark: #292b2c;
+    --clr-secondary-dark: #212529;
     --clr-bg-dark: 	hsl(210, 10%, 23%);
     --clr-text-dark: azure;
     
 }
 .light-mode{
-    --clr-secondary: #B0BEC5;
-    --clr-bg: 	#FBFBFB;
+    --clr-secondary: #4B5156;
+    --clr-bg: 	#6c757d;
     --clr-text: black;
 }
 *{
@@ -31,6 +31,10 @@ body{
 /* Header done using Bootstrap */
 
 /* Footer done using Bootstrap */
+.footer{
+    color:var(--clr-text);
+    background: var(--clr-secondary);
+}
 img{
     max-width: 100%;
     max-height: 100%;
@@ -111,6 +115,7 @@ section::after{/*Fixes floating elements*/
 }
 /* home-about */
 .home-about{
+    color:var(--clr-text-dark);
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
