@@ -26,7 +26,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only"></span></a>
+          <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only"></span></a>
           <a class="nav-item nav-link" href="#">About Us</a>
           <a class="nav-item nav-link" href="#">Contract</a>
           <a class="nav-item nav-link disabled" href="#">Pricing</a>
@@ -37,31 +37,38 @@
 
   <!--Main-->
   <main role="main" class="container">
-        <form class="border mt-3 bg-dark py-5 w-auto h-auto text-center" action="#"  method="post">
-            <h1 class="text-center">Sign Up!</h1>
-            <br>
-            <label for="email"><b>Email</b></label>
-            <br>
-            <input type="email" placeholder="Enter Email: " name="email" required>
-            <br>
-            <label for="username"><b>User Name</b></label>
-            <br>
-            <input type="text" placeholder="Enter User Name: " name="username" required>
-            <br>
-            <label for="fname"><b>First Name</b></label>
-            <br>
-            <input type="text" placeholder="Enter First Name: " name="fname" required>
-            <br>
-            <label for="lname"><b>Last Name</b></label>
-            <br>
-            <input type="text" placeholder="Enter Last Name: " name="lname" required>
-            <br>
-            <label for="pword"><b>Password</b></label>
-            <br>
-            <input type="password" placeholder="Enter Password: " name="pword" required>
-            <br>
-            <br>
-            <button class="btn btn-warning btn-lg" type="submit">Sign Up</button>
+        <form class="registration-form mt-3 bg-dark w-auto h-auto" action="#"  method="post">
+          <ul class="list-group">
+            <li class="list-group-item rounded-0">
+              <h1 class="text-center">Sign Up!</h1>
+              <p>Fill out all the information below to create a new account.</p>
+            </li>
+            <li class="list-group-item bg-dark">
+              <label class="d-block" for="email"><b>Email</b></label>
+              <input type="email" class="form-control" placeholder="Enter Email: " name="email" required>
+            </li>
+            <li class="list-group-item bg-dark">
+              <label class="d-block" for="username"><b>User Name</b></label>
+              <input type="text" class="form-control"placeholder="Enter User Name: " name="username" required>
+            </li>
+            <li class="list-group-item bg-dark">
+              <label class="d-block" for="fname"><b>First Name</b></label>
+              <input type="text" class="form-control"placeholder="Enter First Name: " name="fname" required>
+            </li>
+            <li class="list-group-item bg-dark">
+              <label class="d-block" for="lname"><b>Last Name</b></label>
+              <input type="text" class="form-control"placeholder="Enter Last Name: " name="lname" required>
+            </li>
+            <li class="list-group-item bg-dark">
+              <label class="d-block" for="pword"><b>Password</b></label>
+              <input type="password" class="form-control"placeholder="Enter Password: " name="pword" required>
+            </li>
+            <li class="list-group-item bg-dark">
+              <button class="btn btn-warning btn-lg w-50" type="submit"><b>Sign Up</b></button>
+              <h5>Already have an account?</h5>
+              <a class="btn btn-success btn-lg">Login</a>
+            </li>
+          </ul>
         </form>
 
 
