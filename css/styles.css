@@ -38,6 +38,9 @@ section::after{/*Fixes floating elements*/
     .container{
         margin:0 0;
     }
+    .row{
+        width: 100%
+    }
 }
 .logo{
       color: var(--clr-primary);
@@ -168,26 +171,33 @@ section::after{/*Fixes floating elements*/
     background-color: var(--clr-primary);
 }
 
-/*Registration Page*/
-.registration-form{
-    outline:1px solid var(--clr-primary);
+/*Registration Page & Login Page*/
+.main-form{
+    text-align: inherit;
+    color:var(--clr-text);
 }
-.registration-form label{
+.main-form .list-group li:first-of-type{
+    color:var(--clr-text);
+}
+.main-form label{
     color:var(--clr-text);
     text-align: left;
 }
-.registration-form h5{
+.main-form h5, .main-form h7{
     color:var(--clr-text);
 }
-.registration-form .list-group li:first-of-type{
-    background-color: var(--clr-primary);
-    color:var(--clr-text);
-}
-.registration-form .list-group li:last-of-type{
-    outline:1px solid var(--clr-primary);
-}
-.registration-form .list-group li:last-of-type button{
+.main-form .list-group li:last-of-type button{
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
+}
+
+.button-circle{
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem 0rem;
+    border-radius: 4rem;
+    font-size: 2rem;
+    text-align: center;
+    align-content: center;
 }

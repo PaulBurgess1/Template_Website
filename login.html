@@ -2,7 +2,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Registration </title>
+    <title> Login </title>
     <link rel="icon" href="img/Logo.png">
     <!--JS-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -37,35 +37,28 @@
 
   <!--Main-->
   <main role="main" class="container">
-        <form class="main-form mt-3 bg-dark w-auto h-auto border border-warning" action="#"  method="post">
+        <form class="main-form mt-3 bg-dark w-auto h-auto border border-success" action="#"  method="post">
           <ul class="list-group">
-            <li class="list-group-item rounded-0 bg-warning">
-              <h1 class="text-center">Sign Up!</h1>
-              <p>Fill out all the information below to create a new account.</p>
+            <li class="list-group-item rounded-0 bg-success">
+              <h1 class="text-center">Login!</h1>
+              <p>Enter your Email and Password to login</p>
             </li>
             <li class="list-group-item bg-dark">
               <label class="d-block" for="email"><b>Email</b></label>
               <input type="email" class="form-control" placeholder="Enter Email: " name="email" required>
             </li>
             <li class="list-group-item bg-dark">
-              <label class="d-block" for="username"><b>User Name</b></label>
-              <input type="text" class="form-control"placeholder="Enter User Name: " name="username" required>
-            </li>
-            <li class="list-group-item bg-dark">
-              <label class="d-block" for="fname"><b>First Name</b></label>
-              <input type="text" class="form-control"placeholder="Enter First Name: " name="fname" required>
-            </li>
-            <li class="list-group-item bg-dark">
-              <label class="d-block" for="lname"><b>Last Name</b></label>
-              <input type="text" class="form-control"placeholder="Enter Last Name: " name="lname" required>
-            </li>
-            <li class="list-group-item bg-dark">
               <label class="d-block" for="pword"><b>Password</b></label>
               <input type="password" class="form-control"placeholder="Enter Password: " name="pword" required>
+              <small id="passwordHelp" class="d-block form-text text-muted" style="text-align: left;">Forgot your password? <a href="#" class="link">Click here.</a></small>
             </li>
-            <li class="list-group-item bg-dark border border-warning">
-              <button class="btn btn-warning btn-lg w-50" type="submit"><b>Sign Up</b></button>
-              <div class="col">
+
+            <li class="list-group-item bg-dark border border-success">
+              <button class="btn btn-success btn-lg w-50" type="submit"><b>Login</b></button>
+              <h5>Don't Have an Account?</h5>
+              <a href="registration.html" class="btn btn-warning btn-lg">Sign Up</a>
+              
+              <div class="col mt-3">
                 <h5>Or Sign Up Using</h5>
                 <a class="btn btn-primary button-circle btn-floating m-1"
                     style="background-color: #3b5998;"
@@ -86,8 +79,6 @@
                     <i class="fab fa-google"></i>
                 </a>
               </div>
-              <h5 class="mt-2">Already Have an Account?</h5>
-              <a href="login.html" class="btn btn-success btn-lg">Login</a>
             </li>
           </ul>
         </form>
