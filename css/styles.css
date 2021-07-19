@@ -183,7 +183,7 @@ section::after{/*Fixes floating elements*/
     color:var(--clr-text);
     text-align: left;
 }
-.main-form h5, .main-form h7{
+.main-form h5{
     color:var(--clr-text);
 }
 .main-form .list-group li:last-of-type button{
@@ -200,4 +200,20 @@ section::after{/*Fixes floating elements*/
     font-size: 2rem;
     text-align: center;
     align-content: center;
+}
+
+/*About Us*/
+.carousel-caption{
+    width: 100%;
+    position: absolute;
+    outline:1px solid var(--clr-primary);
+    bottom: 0;
+    left:0;
+    right:0;
+    background: rgba(0, 0, 0, 0.75);
+}
+@media(max-width: 30rem){
+    .carousel-caption p{
+        display:none;
+    }
 }
