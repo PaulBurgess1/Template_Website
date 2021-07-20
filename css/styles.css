@@ -217,3 +217,7 @@ section::after{/*Fixes floating elements*/
         display:none;
     }
 }
+.about-info{
+    color:inherit;
+    outline:1px solid var(--clr-primary);
+}
