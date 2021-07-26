@@ -221,3 +221,10 @@ section::after{/*Fixes floating elements*/
     color:inherit;
     outline:1px solid var(--clr-primary);
 }
+
+/*Contact Page*/
+.contact-main{
+    padding: 1rem;
+    margin: auto 1rem;
+    outline:1px solid var(--clr-primary);
+}
